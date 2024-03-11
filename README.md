@@ -2,6 +2,8 @@
 
 * Zsh / Oh my zsh configurations
 * Neovim
-* Gnome terminal (on Ubuntu 20.10)
+* Gnome terminal (on Gnome 43)
   * Atom One Dark scheme and colors
+* Extensions dump
 * Bash installer script
+* Bash check changes script
