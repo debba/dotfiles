@@ -10,4 +10,4 @@ cat ./gnome/gnome-shell-extensions.properties | dconf load /org/gnome/shell/exte
 cp -rf ./omz/themes/TheOne.zsh-theme ~/.oh-my-zsh/themes
 
 # neovim settings
-cp -rf ./config/nvim ~/.config
+cp -rf ./.config/nvim ~/.config
