@@ -4,4 +4,5 @@ dash-to-dock@micxgx.gmail.com
 blur-my-shell@aunetx
 ShutdownTimer@deminder
 unredirect@vaina.lt
+caffeine@patapon.info
 quick-settings-tweaks@qwreey
