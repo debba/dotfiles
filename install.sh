@@ -11,3 +11,6 @@ cp -rf ./omz/themes/TheOne.zsh-theme ~/.oh-my-zsh/themes
 
 # neovim settings
 cp -rf ./.config/nvim ~/.config
+
+# git settings
+cp -rf ./.config/git/.gitconfig ~
