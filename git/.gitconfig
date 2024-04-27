@@ -1,0 +1,5 @@
+[user]
+	name = Andrea Debernardi
+	email = andrea@debbaweb.it
+[core]
+	autocrlf = input
