@@ -1,5 +1,5 @@
 cider 
-nordvpn 
+nordvpn-bin
 google-chrome 
 jetbrains-toolbox 
 postman-bin 
@@ -8,3 +8,4 @@ slack-desktop-wayland
 spotify 
 standardnotes-bin 
 visual-studio-code-bin
+github-cli
