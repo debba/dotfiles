@@ -1,0 +1,11 @@
+cider 
+nordvpn-bin
+google-chrome 
+jetbrains-toolbox 
+postman-bin 
+skypeforlinux-bin 
+slack-desktop-wayland 
+spotify 
+standardnotes-bin 
+visual-studio-code-bin
+github-cli
