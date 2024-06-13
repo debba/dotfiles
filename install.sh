@@ -12,5 +12,8 @@ cp -rf ./omz/themes/TheOne.zsh-theme ~/.oh-my-zsh/themes
 # neovim settings
 cp -rf ./.config/nvim ~/.config
 
+# copy arch makepkg config
+cp -rf ./.makepkg.conf ~/.makepkg.conf
+
 # git settings
-cp -rf ./.config/git/.gitconfig ~
+cp -rf ./git/.gitconfig ~
