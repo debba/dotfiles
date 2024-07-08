@@ -17,3 +17,10 @@ cp -rf ./.makepkg.conf ~/.makepkg.conf
 
 # git settings
 cp -rf ./git/.gitconfig ~
+
+# copy fonts
+
+cp ./fonts/InterVariable.ttf ~/.local/share/fonts/InterVariable.ttf
+cp ./fonts/InterVariable-Italic.ttf ~/.local/share/fonts/nterVariable-Italic.ttf
+fc-cache -f -v
+gsettings set org.gnome.desktop.interface font-name 'Inter Variable 11'
