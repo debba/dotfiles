@@ -5,4 +5,3 @@ blur-my-shell@aunetx
 ShutdownTimer@deminder
 unredirect@vaina.lt
 caffeine@patapon.info
-quick-settings-tweaks@qwreey
