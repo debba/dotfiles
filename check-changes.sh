@@ -12,6 +12,8 @@ gnome-extensions list --enabled > ./data/gnome-shell-enabled-extensions.txt
 
 dconf dump /org/gnome/shell/extensions/ > ./gnome/gnome-shell-extensions.properties
 
+cp -rf ~/.antigravity antigravity
+
 if [[ `git status --porcelain` ]]; then
     git add *
     git commit -m "Automatic changes in date $(date '+%d/%m/%Y %H:%M:%S')"
