@@ -12,7 +12,11 @@ gnome-extensions list --enabled > ./data/gnome-shell-enabled-extensions.txt
 
 dconf dump /org/gnome/shell/extensions/ > ./gnome/gnome-shell-extensions.properties
 
-cp -rf ~/.antigravity antigravity
+# Antigravity settings
+rm -rf antigravity
+mkdir -p antigravity
+mkdir -p antigravity/User
+cp /home/debba/.config/Antigravity/User/settings.json antigravity/User/settings.json
 
 if [[ `git status --porcelain` ]]; then
     git add *

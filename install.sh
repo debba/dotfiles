@@ -18,6 +18,10 @@ cp -rf ./.makepkg.conf ~/.makepkg.conf
 # git settings
 cp -rf ./git/.gitconfig ~
 
+# Antigravity settings
+mkdir -p ~/.config/Antigravity/User
+cp ./antigravity/User/settings.json ~/.config/Antigravity/User/settings.json
+
 # copy fonts
 
 cp ./fonts/InterVariable.ttf ~/.local/share/fonts/InterVariable.ttf

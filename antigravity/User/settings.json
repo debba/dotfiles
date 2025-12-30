@@ -1,0 +1,12 @@
+{
+	"json.schemaDownload.enable": true,
+	"antigravity.marketplaceGalleryItemURL": "https://marketplace.visualstudio.com/items",
+	"antigravity.marketplaceExtensionGalleryServiceURL": "https://marketplace.visualstudio.com/_apis/public/gallery",
+	"editor.fontSize": 16,
+	"files.autoSave": "afterDelay",
+	"git.rebaseWhenSync": true,
+	"git.autofetch": true,
+	"git.mergeEditor": true,
+	"[typescript]": {},
+	"editor.wordWrap": "on"
+}
