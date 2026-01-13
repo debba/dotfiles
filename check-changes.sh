@@ -16,7 +16,11 @@ dconf dump /org/gnome/shell/extensions/ > ./gnome/gnome-shell-extensions.propert
 rm -rf antigravity
 mkdir -p antigravity
 mkdir -p antigravity/User
-cp /home/debba/.config/Antigravity/User/settings.json antigravity/User/settings.json
+cp ~/.config/Antigravity/User/settings.json antigravity/User/settings.json
+
+rm -rf zed
+mkdir -p zed
+cp ~/.config/zed/settings.json zed/settings.json
 
 if [[ `git status --porcelain` ]]; then
     git add *

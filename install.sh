@@ -22,6 +22,10 @@ cp -rf ./git/.gitconfig ~
 mkdir -p ~/.config/Antigravity/User
 cp ./antigravity/User/settings.json ~/.config/Antigravity/User/settings.json
 
+# Zed settings
+mkdir -p ~/.config/zed
+cp ./zed/settings.json ~/.config/zed/settings.json
+
 # copy fonts
 
 cp ./fonts/InterVariable.ttf ~/.local/share/fonts/InterVariable.ttf
