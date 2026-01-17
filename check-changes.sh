@@ -21,6 +21,7 @@ cp ~/.config/Antigravity/User/settings.json antigravity/User/settings.json
 rm -rf zed
 mkdir -p zed
 cp ~/.config/zed/settings.json zed/settings.json
+cp ~/.config/zed/tasks.json zed/tasks.json
 
 if [[ `git status --porcelain` ]]; then
     git add *

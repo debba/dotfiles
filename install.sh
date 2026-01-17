@@ -25,6 +25,7 @@ cp ./antigravity/User/settings.json ~/.config/Antigravity/User/settings.json
 # Zed settings
 mkdir -p ~/.config/zed
 cp ./zed/settings.json ~/.config/zed/settings.json
+cp ./zed/tasks.json ~/.config/zed/tasks.json
 
 # copy fonts
 
