@@ -22,7 +22,7 @@ cp -rf ./git/.gitconfig ~
 mkdir -p ~/.config/Antigravity/User
 cp ./antigravity/User/settings.json ~/.config/Antigravity/User/settings.json
 
-# Zed settings
+# Zed settings 
 mkdir -p ~/.config/zed
 cp ./zed/settings.json ~/.config/zed/settings.json
 cp ./zed/tasks.json ~/.config/zed/tasks.json
