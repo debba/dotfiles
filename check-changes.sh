@@ -18,6 +18,7 @@ mkdir -p antigravity
 mkdir -p antigravity/User
 cp ~/.config/Antigravity/User/settings.json antigravity/User/settings.json
 
+# Zed settings
 rm -rf zed
 mkdir -p zed
 cp ~/.config/zed/settings.json zed/settings.json
