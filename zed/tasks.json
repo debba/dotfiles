@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Git Update Project (Merge)",
+    "command": "git stash push -m 'zed-update-merge' && git pull --no-rebase && git stash pop",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+  },
+  {
+    "label": "Git Update Project (Rebase)",
+    "command": "git stash && git pull --rebase && git stash pop",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+  },
+]
