@@ -27,6 +27,10 @@ mkdir -p ~/.config/zed
 cp ./zed/settings.json ~/.config/zed/settings.json
 cp ./zed/tasks.json ~/.config/zed/tasks.json
 
+# Ghostty settings
+mkdir -p ~/.config/ghostty
+cp ./ghostty/config ~/.config/ghostty/config
+
 # copy fonts
 
 cp ./fonts/InterVariable.ttf ~/.local/share/fonts/InterVariable.ttf

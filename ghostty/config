@@ -1,0 +1,39 @@
+# Font
+font-family = JetBrains Mono
+font-style = Bold
+font-size = 12
+
+# Theme & Colors (One Dark - matching GNOME Terminal palette)
+background = #282c34
+foreground = #abb2bf
+palette = 0=#000000
+palette = 1=#e06c75
+palette = 2=#98c379
+palette = 3=#d19a66
+palette = 4=#61afef
+palette = 5=#c678dd
+palette = 6=#56b6c2
+palette = 7=#abb2bf
+palette = 8=#5c6370
+palette = 9=#e06c75
+palette = 10=#98c379
+palette = 11=#d19a66
+palette = 12=#61afef
+palette = 13=#c678dd
+palette = 14=#56b6c2
+palette = 15=#ffffff
+
+# Cell spacing (GNOME Terminal cell-height-scale = 1.2)
+adjust-cell-height = 20%
+
+# Cursor
+cursor-style-blink = true
+
+# Bold
+bold-is-bright = false
+
+# Tabs (GNOME Terminal new-terminal-mode = tab)
+window-new-tab-position = current
+
+# Scrollback
+scroll-on-output = true

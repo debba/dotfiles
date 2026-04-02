@@ -24,6 +24,11 @@ mkdir -p zed
 cp ~/.config/zed/settings.json zed/settings.json
 cp ~/.config/zed/tasks.json zed/tasks.json
 
+# Ghostty settings
+rm -rf ghostty
+mkdir -p ghostty
+cp ~/.config/ghostty/config ghostty/config
+
 if [[ `git status --porcelain` ]]; then
     git add *
     git commit -m "Automatic changes in date $(date '+%d/%m/%Y %H:%M:%S')"

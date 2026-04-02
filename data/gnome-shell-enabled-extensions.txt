@@ -2,7 +2,8 @@ blur-my-shell@aunetx
 search-light@icedman.github.com
 appindicatorsupport@rgcjonas.gmail.com
 ShutdownTimer@deminder
-quick-settings-tweaks@qwreey
 caffeine@patapon.info
 dash-to-dock@micxgx.gmail.com
+github-tray@debba.github.com
+claude-code-usage@haletran.com
 user-theme@gnome-shell-extensions.gcampax.github.com
